@@ -1,0 +1,600 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+body,
+html {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  height: auto;
+  background-size: contain;
+}
+a,
+h1,
+p,
+h2 {
+  text-decoration: none;
+  color: #000;
+}
+p {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+#nav-page-orientation {
+  color: #fff;
+}
+
+div > ul {
+  display: flex;
+  justify-content: right;
+  margin-right: 250px;
+  margin-top: 10px;
+}
+
+div > ul > li {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+div > ul > li > a {
+  padding-left: 30px;
+  text-decoration: none;
+}
+div > ul > li > a:hover {
+  color: aqua;
+}
+
+/* Grid */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.navbar {
+  box-shadow: 0 4px 8px 0 rgba(5, 5, 5, 0.241);
+  transition: 0.3s;
+  grid-column: 1 / 9;
+  grid-row: 1;
+}
+
+#logo-home {
+  width: 100px;
+  height: auto;
+  margin-left: 200px;
+  margin-top: 0px;
+  position: absolute;
+}
+
+.toggler {
+  opacity: 0;
+}
+
+.text-under {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.text-under:hover {
+  color: aqua;
+}
+
+.two {
+  background-color: aliceblue;
+  grid-column: 2 / 8;
+  grid-row: 3 / 8;
+  background-image: url(/images/christopher-luther-sGdq8N2UpzI-unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.wo{
+
+}
+
+.three {
+  grid-column: 2 / 4;
+  grid-row: 4 / 7;
+  background-color: #0c0c0c;
+  background-image: url(/images/kelly-sikkema-h2iXVd9jJgE-unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  
+}
+
+.four {
+  background-color: aquamarine;
+  grid-column: 4 / 6;
+  grid-row: 4 / 7;
+  background-image: url(/images/christopher-luther-90bvtgQfL3M-unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.five {
+  background-color: rebeccapurple;
+  grid-column: 6 / 8;
+  grid-row: 4 / 7;
+  background-image: url(/images/derek-owens-ilJF9lJDjJY-unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.pad {
+
+  font-size: 20px;
+}
+#bordered{
+  background-color: #fff;
+  margin: 200px;
+  text-align: center;
+  position: relative;
+  top: -170px;
+}
+
+#six {
+  grid-column: 2 / 8;
+  grid-row: 9 / 12;
+  background-image: url();
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+ 
+}
+#seven {
+  grid-column: 2 / 8;
+  grid-row: 8;
+  background-image: url();
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  text-decoration: underline;
+ 
+}
+
+#eight {
+  grid-column: 2 / 8;
+  grid-row: 8 / 11;
+  background-image: url();
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+/* Footer Section */
+
+.footer {
+  grid-column: 1 / 9;
+  grid-row: 13 / 15;
+  background-color: #000;
+}
+
+.aligned-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.aligned-text {
+  margin-top: 50px;
+  color: #fff;
+  font-size: 30px;
+}
+h4{
+  font-size: 30px;
+  color: #fff;
+}
+.fas,
+.fab,
+h6 {
+  color: #fff;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.fas,
+.fab:hover {
+  color: aqua;
+}
+
+#copyed {
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+
+.card {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.241);
+  transition: 0.3s;
+  width: auto;
+  padding: 10px;
+  margin: 0;
+}
+
+.card img{
+width: 350px;
+height: auto;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 550px) {
+  /* Hamburger Menu */
+  .menu-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .menu-wrap .toggler {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    opacity: 0;
+  }
+
+  .menu-wrap .hamburger {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-wrap .hamburger > div {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+  }
+
+  .menu-wrap .hamburger > div:before,
+  .menu-wrap .hamburger > div:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 6px;
+    background-color: inherit;
+  }
+
+  .menu-wrap .hamburger > div:after {
+    top: 10px;
+  }
+
+  /* Toggler animate */
+  .menu-wrap .toggler:checked + .hamburger > div {
+    transform: rotate(135deg);
+  }
+
+  /* Lines into X*/
+  .menu-wrap .toggler:checked + .hamburger > div:before,
+  .menu-wrap .toggler:checked + .hamburger > div:after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+  /* Rotate on hover*/
+  .menu-wrap .toggler:checked:hover + .hamburger > div {
+    transform: rotate(225deg);
+  }
+
+  /* Show menu*/
+  .menu-wrap .toggler:checked ~ .menu {
+    visibility: visible;
+  }
+
+  .menu-wrap .toggler:checked ~ .menu > div {
+    transform: scale(1);
+    transition-duration: 0.75s ease;
+  }
+
+  .menu-wrap .toggler:checked ~ .menu > div > div {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+  }
+
+  .menu-wrap .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-wrap .menu > div {
+    border-radius: 50%;
+    width: 300vw;
+    height: 300vw;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
+  }
+
+  .menu-wrap .menu > div > div {
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  .menu-wrap .menu > div > div > ul > li {
+    list-style: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  .menu-wrap .menu > div > div > ul > li > a {
+    color: aqua;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.4s ease;
+  }
+
+  /* Vertical aligned navbar */
+  div > ul > li {
+    display: block;
+  }
+
+  div > ul {
+    display: block;
+    justify-content: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* Grid */
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .navbar {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    background-color: #fff;
+  }
+
+  .card{
+    margin-top: 50px;
+    margin-left: 30px;
+  
+  }
+
+  #bordered{
+    background-color: #fff;
+    margin:200px;
+    text-align: center;
+    position: relative;
+    top: -190px;
+    padding-left: 70px;
+  }
+
+  #logo-home {
+    width: 100px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 0px;
+    z-index: 3;
+    position: fixed;
+    background-color: #fff;
+  }
+
+  /* Sticky header */
+  #sticky-head {
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .two {
+    background-color: aliceblue;
+    grid-column: 1 / 8;
+    grid-row: 3 / 4;
+    background-image: url(/images/christopher-luther-sGdq8N2UpzI-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+  }
+
+  .three {
+    background-color: #000;
+    grid-column: 1 / 3;
+    grid-row: 4 / 6;
+    background-image: url();
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+  }
+
+  .text-under {
+    margin-right: 20px;
+    padding: 10px;
+  }
+
+  .pad {
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-right: 80px;
+  }
+
+  .four {
+    background-color: #000;
+    grid-column: 1 / 8;
+    grid-row: 6 / 8;
+    background-image: url();
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .five {
+   background-color: aliceblue;
+    grid-column: 1 / 8;
+    grid-row: 8 / 10;
+    background-image: url();
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .footer {
+    background-color: #0c0c0c;
+    grid-column: 1 / 8;
+    grid-row: 12 / 14;
+  }
+
+  #copyed {
+    position: relative;
+    margin-left: 0%;
+    top: 0px;
+    font-size: 15px;
+  }
+
+  .aligned-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .aligned-text {
+    margin-top: -20px;
+  }
+  p{
+    margin-right: 15px;
+  }
+
+  .fas,
+  .fab {
+    color: #fff;
+    font-size: 50px;
+    padding: 30px;
+  }
+
+  #six {
+    grid-column: 1 / 8;
+    grid-row: 4 / 9;
+    background-image: url();
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  #seven {
+    grid-column: 2 / 8;
+    grid-row: 4 / 5;
+    background-image: url();
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+  }
+
+  
+
+  #eight {
+    grid-column: 2 / 8;
+    grid-row:  9/ 12;
+    background-image: url();
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+  }
+
+  h2 {
+    margin-right: 80px;
+  }
+}
